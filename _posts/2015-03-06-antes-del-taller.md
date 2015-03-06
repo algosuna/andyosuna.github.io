@@ -24,13 +24,13 @@ Recomendamos llegar a la hora citada para poder desayunar sin prisa :)
 
 Aun no tenemos estacionamiento designado para los asistentes al evento, asi que ten eso en cuenta al elegir el metodo de transporte.
 
-**No olvides traer tu compu, cargador, y mucha curiosudad :)**
+**No olvides traer tu compu, cargador, y mucha curiosidad :)**
 
 ## D&oacute;nde
 
 El taller se llevara a cabo en [HUB STN](http://hubstn.com/) ubicado en Av. Revoluci&oacute;n entre calles 6ta y 7ma.
 
-El edificio es la antigua terminal de autobuses de Mexicoach, en el segundo piso. Puedes ver un mapa aqu&iacute;:[Awesome Google Map!](https://goo.gl/maps/QYBtL)
+El edificio es la antigua terminal de autobuses de Mexicoach, en el segundo piso. Puedes ver un mapa aqu&iacute;: [Awesome Google Map!](https://goo.gl/maps/QYBtL)
 
 Pondremos letreros en todos lados, pero si te pierdes, ll&aacute;manos: +521 (664) 218 3372 (Andrea) &oacute; +521 (664) 310 0360 (Laura).
 
