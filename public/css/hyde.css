@@ -78,12 +78,13 @@ html {
 /* About section */
 .sidebar-about h1 {
   display: block;
-  width: 100%;
-  margin: 0px;
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
   padding: 0px;
   text-indent: -1000px;
   background-image: url(../logo-square.png);
-
+  background-size: 200px 200px;
 }
 
 /* Sidebar nav */
