@@ -11,15 +11,15 @@ Abajo encontrar&aacute;s informaci&oacute;n importante que te ayudar&aacute; pas
 
 ## Cuando
 
-Django Girls Tijuana se llevar&aacute; a cabo el dia s&aacute;bado, 7 de marzo de 8:00 a 18:00. Habr&aacute; comida, snacks, caf&eacute;, agua y t&eacute;.
+Django Girls Tijuana se llevar&aacute; a cabo el dia s&aacute;bado, 7 de marzo de 8:00 a 18:00. Habr&aacute; desayuno, comida, snacks, caf&eacute;, agua y t&eacute;.
 
 Recomendamos llegar a la hora citada para poder desayunar sin prisa :)
 
 - 8:00 - rico desayuno
 - 8:30 - instalaci&oacute;n de programas
-- 9:00 - comienza el taller!
-- 13:00 - comida (la proveeremos nosotras)
-- 14:00 - de vuelta al taller!
+- 9:00 - comienza el taller
+- 13:00 - ¡comida!
+- 14:00 - de vuelta al taller
 - 18:00 - despedida
 
 **No olvides traer tu computadora, cargador, y mucha curiosidad :)**
@@ -38,10 +38,10 @@ No tenemos estacionamiento designado para los asistentes al evento, as&iacute; q
 
 ## Trae contigo
 
-- Laptop (¡importante!)
-- Cargador de la laptop
-- Splitter o multicontacto (si tienes alguno)
-- Una sonrisa, curiosidad, y ¡energ&iacute;a!
+- laptop (¡importante!)
+- cargador de la laptop
+- splitter o multicontacto (si tienes alguno)
+- una sonrisa, curiosidad, y ¡energ&iacute;a!
 
 ## Antes del taller
 
