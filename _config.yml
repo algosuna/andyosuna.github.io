@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Django Girls Tijuana
+tagline:          'Crea un blog este 7 de marzo'
+description:      'Informaci&oacute;n importante sobre el taller de ma&ntilde;ana. Para mas informaci&oacute;n visita <a href="http://djangogirls.org/tijuana" target="_blank">djangogirls.org/tijuana</a><br><br>Made with <3 by <a href="https://twitter.com/andiosuna" target="_blank">@andiosuna</a>.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
@@ -20,7 +20,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.0.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/andyosuna/andyosuna.github.io

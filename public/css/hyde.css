@@ -248,3 +248,12 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Django Girls */
+.theme-base-django .sidebar {
+  background-color: #1DCBD6;
+}
+.theme-base-django .content a,
+.theme-base-django .related-posts li a:hover {
+  color: #1DCBD6;
+}
