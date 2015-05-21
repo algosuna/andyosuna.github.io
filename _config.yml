@@ -7,10 +7,10 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Django Girls Tijuana
-tagline:          'Crea un blog este 7 de marzo'
-description:      'Informaci&oacute;n importante sobre el taller de ma&ntilde;ana. Para m&aacute;s informaci&oacute;n visita <a href="http://djangogirls.org/tijuana" target="_blank">djangogirls.org/tijuana</a><br><br>Made with <3 by <a href="https://twitter.com/andiosuna" target="_blank">@andiosuna</a>.'
-url:              http://hyde.getpoole.com
+title:            Django Girls Ensenada
+tagline:          'Crea un blog este 22 y 23 de mayo'
+description:      'Informaci&oacute;n importante sobre el taller de ma&ntilde;ana. Para m&aacute;s informaci&oacute;n visita <a href="http://djangogirls.org/ensenada" target="_blank">djangogirls.org/ensenada</a><br><br>Made with <3 by <a href="https://twitter.com/andiosuna" target="_blank">@andiosuna</a>.'
+url:              http://andyosuna.github.io
 baseurl:          /
 
 author:

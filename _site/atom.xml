@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Django Girls Tijuana</title>
+ <link href="http://andyosuna.github.io/atom.xml" rel="self"/>
+ <link href="http://andyosuna.github.io/"/>
+ <updated>2015-03-10T08:45:21-07:00</updated>
+ <id>http://andyosuna.github.io</id>
+ <author>
+   <name>Mark Otto</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Antes del Taller</title>
+   <link href="http://andyosuna.github.io/2015/03/06/antes-del-taller/"/>
+   <updated>2015-03-06T00:00:00-08:00</updated>
+   <id>http://andyosuna.github.io/2015/03/06/antes-del-taller</id>
+   <content type="html">&lt;p&gt;¡Hola!&lt;/p&gt;
+
+&lt;p&gt;Si est&amp;aacute;s en esta p&amp;aacute;gina, quiere decir que muy pronto crear&amp;aacute;s tu primera (o pr&amp;oacute;xima?) p&amp;aacute;gina web. ¡Estamos ansiosas, y esperamos que t&amp;uacute; tambi&amp;eacute;n!&lt;/p&gt;
+
+&lt;p&gt;Abajo encontrar&amp;aacute;s informaci&amp;oacute;n importante que te ayudar&amp;aacute; pasar por la experiencia sin problema alguno. En calso de cualquier (¡CUALQUIER!) duda, no lo pienses mucho y cont&amp;aacute;ctanos: &lt;a href=&quot;mailto:tijuana@djangogirls.org&quot;&gt;tijuana@djangogirls.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Cuando&lt;/h2&gt;
+
+&lt;p&gt;Django Girls Tijuana se llevar&amp;aacute; a cabo el dia s&amp;aacute;bado, 7 de marzo de 8:00 a 18:00. Habr&amp;aacute; desayuno, comida, snacks, caf&amp;eacute;, agua y t&amp;eacute;.&lt;/p&gt;
+
+&lt;p&gt;Recomendamos llegar a la hora citada para poder desayunar sin prisa :)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;8:00 - rico desayuno&lt;/li&gt;
+&lt;li&gt;8:30 - instalaci&amp;oacute;n de programas&lt;/li&gt;
+&lt;li&gt;9:00 - comienza el taller&lt;/li&gt;
+&lt;li&gt;13:00 - ¡comida!&lt;/li&gt;
+&lt;li&gt;14:00 - de vuelta al taller&lt;/li&gt;
+&lt;li&gt;18:00 - despedida&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;No olvides traer tu computadora, cargador, y mucha curiosidad :)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;D&amp;oacute;nde&lt;/h2&gt;
+
+&lt;p&gt;El taller se llevar&amp;aacute; a cabo en &lt;a href=&quot;http://hubstn.com/&quot;&gt;HUB STN&lt;/a&gt; ubicado en Av. Revoluci&amp;oacute;n entre calles 6ta y 7ma.&lt;/p&gt;
+
+&lt;p&gt;El edificio es la antigua terminal de autobuses de Mexicoach, en el segundo piso. Puedes ver un mapa aqu&amp;iacute;: &lt;a href=&quot;https://goo.gl/maps/QYBtL&quot;&gt;Awesome Google Map!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pondremos letreros en todos lados, pero si te pierdes, ll&amp;aacute;manos: +521 (664) 218 3372 (Andrea) &amp;oacute; +521 (664) 310 0360 (Laura).&lt;/p&gt;
+
+&lt;h3&gt;¡Por favor deja tu carro en casa!&lt;/h3&gt;
+
+&lt;p&gt;No tenemos estacionamiento designado para los asistentes al evento, as&amp;iacute; que ten eso en cuenta al elegir el m&amp;eacute;todo de transporte. Si por algun motivo nesesitas traer carro, hay un estacionamiento barato ($20 MN)  hasta las 20:00. El estacionamiento esta en la calle 7ma entre las Avenidas Revoluci&amp;oacute;n y Constituci&amp;oacute;n. Puedes ver un mapa aqui: &lt;a href=&quot;https://goo.gl/maps/OFCN0&quot;&gt;Ubicaci&amp;oacute;n del estacionamiento&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Trae contigo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;laptop (¡importante!)&lt;/li&gt;
+&lt;li&gt;cargador de la laptop&lt;/li&gt;
+&lt;li&gt;splitter o multicontacto (si tienes alguno)&lt;/li&gt;
+&lt;li&gt;una sonrisa, curiosidad, y ¡energ&amp;iacute;a!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Antes del taller&lt;/h2&gt;
+
+&lt;p&gt;8 horas es muy poco tiempo para aprender programaci&amp;oacute;n, por eso te pediremos que hagas algunas cosas antes de. Si tienes tiempo y quieres venir mejor preparada, por favor lee lo siguiente:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://tutorial.djangogirls.org&quot;&gt;El primer capitulo del tutorial que usaremos durante el taller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wtf.tw/ref/duckett.pdf&quot;&gt;Los capitulos 1, 4, 7, 10 y 15 de este libro de HTML y CSS por Jon Duckett&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Importante&lt;/h2&gt;
+
+&lt;p&gt;S&amp;oacute;lo tenemos 45 lugares en el taller y recibimos m&amp;aacute;s de 150 aplicaciones. Si, por alg&amp;uacute;n motivo, no puedes asistir, te pedimos por favor (¡te lo rogamos!) nos lo hagas saber. As&amp;iacute; le podemos dar a oportunidad a alguien m&amp;aacute;s y el lugar no se ira a la basura. Puedes mandarnos un mensaje de texto o un whatsapp a +521 (664) 218 3372 (Andrea) &amp;oacute; +521 (664) 310 0360 (Laura).&lt;/p&gt;
+
+&lt;p&gt;¡Nos vemos pronto!&lt;/p&gt;
+
+&lt;p&gt;-Andrea&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
