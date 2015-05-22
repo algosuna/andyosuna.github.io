@@ -7,34 +7,40 @@ title: Antes del Taller
 
 Si est&aacute;s en esta p&aacute;gina, quiere decir que muy pronto crear&aacute;s tu primera (o pr&oacute;xima?) p&aacute;gina web. ¡Estamos ansiosas, y esperamos que t&uacute; tambi&eacute;n!
 
-Abajo encontrar&aacute;s informaci&oacute;n importante que te ayudar&aacute; pasar por la experiencia sin problema alguno. En calso de cualquier (¡CUALQUIER!) duda, no lo pienses mucho y cont&aacute;ctanos: [tijuana@djangogirls.org](mailto:tijuana@djangogirls.org).
+Abajo encontrar&aacute;s informaci&oacute;n importante que te ayudar&aacute; pasar por la experiencia sin problema alguno. En caso de cualquier (¡CUALQUIER!) duda, no lo pienses mucho y cont&aacute;ctanos: [ensenada@djangogirls.org](mailto:ensenada@djangogirls.org).
 
 ## Cuando
 
-Django Girls Tijuana se llevar&aacute; a cabo el dia s&aacute;bado, 7 de marzo de 8:00 a 18:00. Habr&aacute; desayuno, comida, snacks, caf&eacute;, agua y t&eacute;.
+Django Girls Ensenada se llevar&aacute; a cabo los dias 22 y 23 de mayo. El d&iacute;a viernes 22 estar&aacute; dedicado a conocernos e instalar los programas requeridos en tu compu. El d&iacute;a s&aacute;bado proveeremos desayuno, comida, snacks, caf&eacute;, agua y t&eacute;.
 
-Recomendamos llegar a la hora citada para poder desayunar sin prisa :)
+Recomendamos llegar a la hora citada especialmente el s&aacute;bado, para poder desayunar sin prisa :)
 
-- 8:00 - rico desayuno
-- 8:30 - instalaci&oacute;n de programas
-- 9:00 - comienza el taller
-- 13:00 - ¡comida!
-- 14:00 - de vuelta al taller
-- 18:00 - despedida
+**Viernes 22**
+
+- 18:00 - Registro
+- 18:30 - Introduccion de coaches (¡y aguadores!)
+- 19:00 - ¡Installation party!
+- 20:00 - Convivio
+
+**S&aacute;bado 23**
+
+- 8:30 - Desayuno
+- 9:00 - ¡Comienza el taller!
+- 11:00 - Breve descanso
+- 13:00 - Comida
+- 14:00 - De vuelta al taller
+- 16:00 - ¡A estirar las piernas!
+- 18:00 - Cierre y agradecimientos
 
 **No olvides traer tu computadora, cargador, y mucha curiosidad :)**
 
 ## D&oacute;nde
 
-El taller se llevar&aacute; a cabo en [HUB STN](http://hubstn.com/) ubicado en Av. Revoluci&oacute;n entre calles 6ta y 7ma.
+El taller se llevar&aacute; a cabo en [la biblioteca de UABC Sauzal](https://goo.gl/maps/qns8W). Puedes ver un mapa aqu&iacute;:
+![UABC Sauzal](/public/map.png)
 
-El edificio es la antigua terminal de autobuses de Mexicoach, en el segundo piso. Puedes ver un mapa aqu&iacute;: [Awesome Google Map!](https://goo.gl/maps/QYBtL)
+Si te pierdes, ll&aacute;male a Andy +521 (664) 218 3372.
 
-Pondremos letreros en todos lados, pero si te pierdes, ll&aacute;manos: +521 (664) 218 3372 (Andrea) &oacute; +521 (664) 310 0360 (Laura).
-
-### ¡Por favor deja tu carro en casa!
-
-No tenemos estacionamiento designado para los asistentes al evento, as&iacute; que ten eso en cuenta al elegir el m&eacute;todo de transporte. Si por algun motivo nesesitas traer carro, hay un estacionamiento barato ($20 MN)  hasta las 20:00. El estacionamiento esta en la calle 7ma entre las Avenidas Revoluci&oacute;n y Constituci&oacute;n. Puedes ver un mapa aqui: [Ubicaci&oacute;n del estacionamiento](https://goo.gl/maps/OFCN0)
 
 ## Trae contigo
 
@@ -52,8 +58,8 @@ No tenemos estacionamiento designado para los asistentes al evento, as&iacute; q
 
 ## Importante
 
-S&oacute;lo tenemos 45 lugares en el taller y recibimos m&aacute;s de 150 aplicaciones. Si, por alg&uacute;n motivo, no puedes asistir, te pedimos por favor (¡te lo rogamos!) nos lo hagas saber. As&iacute; le podemos dar a oportunidad a alguien m&aacute;s y el lugar no se ira a la basura. Puedes mandarnos un mensaje de texto o un whatsapp a +521 (664) 218 3372 (Andrea) &oacute; +521 (664) 310 0360 (Laura).
+S&oacute;lo tenemos 45 lugares en el taller y recibimos m&aacute;s de 80 aplicaciones. Si, por alg&uacute;n motivo, no puedes asistir, te pedimos por favor (¡te lo rogamos!) nos lo hagas saber, as&iacute; le podemos dar a oportunidad a alguien m&aacute;s. Puedes mandarle un mensaje de texto o un whatsapp a Andy +521 (664) 218 3372.
 
 ¡Nos vemos pronto!
 
--Andrea
+-Steph y Andy
