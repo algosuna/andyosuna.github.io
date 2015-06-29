@@ -9,66 +9,75 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  <meta name="application-name" content="andyosuna.com">
+  <meta name="author" content="Andy Osuna">
+
+  <meta name="description" content="I am a Turtle. I am also a Web Developer, Time Traveler and Photography Hobbyist. San Diego, California.">
+  <meta name="keywords" content="San Diego, Web Development, Django, Python, Responsive">
+
   <title>
     
-      Django Girls Tijuana &middot; Crea un blog este 7 de marzo
+      Andy Osuna &middot; web developer
     
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="http://andyosuna.com/css/reset.css">
+  <link rel="stylesheet" href="/public/css/style.css">
+
+  <!-- IE Support -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body class="theme-base-django">
+  <body>
 
-    <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="/">
-          Django Girls Tijuana
-        </a>
-      </h1>
-      <p class="lead">Informaci&oacute;n importante sobre el taller de ma&ntilde;ana. Para m&aacute;s informaci&oacute;n visita <a href="http://djangogirls.org/tijuana" target="_blank">djangogirls.org/tijuana</a><br><br>Made with <3 by <a href="https://twitter.com/andiosuna" target="_blank">@andiosuna</a>.</p>
-    </div>
-
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item active" href="/">Home</a>
-
-      
-
-      
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-      
-
-      <a class="sidebar-nav-item" href="https://twitter.com/DjangoGirlsMX">Twitter</a>
-      <a class="sidebar-nav-item" href="https://facebook.com/DjangoGirlsMexico">Facebook</a>
-      <a class="sidebar-nav-item" href="https://github.com/andyosuna/andyosuna.github.io">View source on GitHub</a>
-    </nav>
-
-    <p>&copy; 2015. All rights reserved.</p>
+    <div class="container clear">
+  <div class="logo">
+    <h1>Andy Osuna</h1>
+    <p>web developer</p>
   </div>
+  <button class="hambarger">
+    <span class="hambar"></span>
+    <span class="hambar"></span>
+    <span class="hambar"></span>
+  </button>
+  <nav>
+    <ul>
+      <li><a class="sidebar-nav-item active" href="/">Home</a></li>
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <li><a class="" href="/about/">About</a></li>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+    </ul>
+  </nav>
 </div>
+
 
 
     <div class="content container">
@@ -76,47 +85,203 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2015/03/06/antes-del-taller/">
+      <a href="/2015/06/27/example-content/">
+        Example content
+      </a>
+    </h1>
+
+    <span class="post-date">27 Jun 2015</span>
+
+    <div class="message">
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+</div>
+
+<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+
+<blockquote>
+<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</blockquote>
+
+<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+<h2>Inline HTML elements</h2>
+
+<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+
+<ul>
+<li><strong>To bold text</strong>, use <code>&lt;strong&gt;</code>.</li>
+<li><em>To italicize text</em>, use <code>&lt;em&gt;</code>.</li>
+<li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code>&lt;abbr&gt;</code>, with an optional <code>title</code> attribute for the full phrase.</li>
+<li>Citations, like <cite>&mdash; Mark otto</cite>, should use <code>&lt;cite&gt;</code>.</li>
+<li><del>Deleted</del> text should use <code>&lt;del&gt;</code> and <ins>inserted</ins> text should use <code>&lt;ins&gt;</code>.</li>
+<li>Superscript <sup>text</sup> uses <code>&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code>&lt;sub&gt;</code>.</li>
+</ul>
+
+<p>Most of these elements are styled by browsers with few modifications on our part.</p>
+
+<h2>Heading</h2>
+
+<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+
+<h3>Code</h3>
+
+<p>Cum sociis natoque penatibus et magnis dis <code>code element</code> montes, nascetur ridiculus mus.</p>
+
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console</span>
+
+<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;return a + b&quot;</span><span class="p">);</span>
+
+<span class="c1">// Call the function</span>
+<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+<span class="c1">// &gt; 8</span></code></pre></div>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
+<h3>Gists via GitHub Pages</h3>
+
+<p>Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+<script src="https://gist.github.com/5555251.js?file=gist.md"> </script>
+
+<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.</p>
+
+<h3>Lists</h3>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+<ul>
+<li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+<li>Donec id elit non mi porta gravida at eget metus.</li>
+<li>Nulla vitae elit libero, a pharetra augue.</li>
+</ul>
+
+<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+
+<ol>
+<li>Vestibulum id ligula porta felis euismod semper.</li>
+<li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+<li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+</ol>
+
+<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+
+<dl>
+  <dt>HyperText Markup Language (HTML)</dt>
+  <dd>The language used to describe and define the content of a Web page</dd>
+
+  <dt>Cascading Style Sheets (CSS)</dt>
+  <dd>Used to describe the appearance of Web content</dd>
+
+  <dt>JavaScript (JS)</dt>
+  <dd>The programming language used to build advanced Web sites and applications</dd>
+</dl>
+
+<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<h3>Images</h3>
+
+<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
+
+<p><img src="http://placehold.it/800x400" alt="placeholder" title="Large example image">
+<img src="http://placehold.it/400x200" alt="placeholder" title="Medium example image">
+<img src="http://placehold.it/200x200" alt="placeholder" title="Small example image"></p>
+
+<h3>Tables</h3>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Upvotes</th>
+      <th>Downvotes</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Totals</td>
+      <td>21</td>
+      <td>23</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>7</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<hr>
+
+<p>Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2015/05/21/antes-del-taller/">
         Antes del Taller
       </a>
     </h1>
 
-    <span class="post-date">06 Mar 2015</span>
+    <span class="post-date">21 May 2015</span>
 
     <p>¡Hola!</p>
 
 <p>Si est&aacute;s en esta p&aacute;gina, quiere decir que muy pronto crear&aacute;s tu primera (o pr&oacute;xima?) p&aacute;gina web. ¡Estamos ansiosas, y esperamos que t&uacute; tambi&eacute;n!</p>
 
-<p>Abajo encontrar&aacute;s informaci&oacute;n importante que te ayudar&aacute; pasar por la experiencia sin problema alguno. En calso de cualquier (¡CUALQUIER!) duda, no lo pienses mucho y cont&aacute;ctanos: <a href="mailto:tijuana@djangogirls.org">tijuana@djangogirls.org</a>.</p>
+<p>Abajo encontrar&aacute;s informaci&oacute;n importante que te ayudar&aacute; pasar por la experiencia sin problema alguno. En caso de cualquier (¡CUALQUIER!) duda, no lo pienses mucho y cont&aacute;ctanos: <a href="mailto:ensenada@djangogirls.org">ensenada@djangogirls.org</a>.</p>
 
 <h2>Cuando</h2>
 
-<p>Django Girls Tijuana se llevar&aacute; a cabo el dia s&aacute;bado, 7 de marzo de 8:00 a 18:00. Habr&aacute; desayuno, comida, snacks, caf&eacute;, agua y t&eacute;.</p>
+<p>Django Girls Ensenada se llevar&aacute; a cabo los dias 22 y 23 de mayo. El d&iacute;a viernes 22 estar&aacute; dedicado a conocernos e instalar los programas requeridos en tu compu. El d&iacute;a s&aacute;bado proveeremos desayuno, comida, snacks, caf&eacute;, agua y t&eacute;.</p>
 
-<p>Recomendamos llegar a la hora citada para poder desayunar sin prisa :)</p>
+<p>Recomendamos llegar a la hora citada especialmente el s&aacute;bado, para poder desayunar sin prisa :)</p>
+
+<p><strong>Viernes 22</strong></p>
 
 <ul>
-<li>8:00 - rico desayuno</li>
-<li>8:30 - instalaci&oacute;n de programas</li>
-<li>9:00 - comienza el taller</li>
-<li>13:00 - ¡comida!</li>
-<li>14:00 - de vuelta al taller</li>
-<li>18:00 - despedida</li>
+<li>18:00 - Registro</li>
+<li>18:30 - Introduccion de coaches (¡y aguadores!)</li>
+<li>19:00 - ¡Installation party!</li>
+<li>20:00 - Convivio</li>
+</ul>
+
+<p><strong>S&aacute;bado 23</strong></p>
+
+<ul>
+<li>8:30 - Desayuno</li>
+<li>9:00 - ¡Comienza el taller!</li>
+<li>11:00 - Breve descanso</li>
+<li>13:00 - Comida</li>
+<li>14:00 - De vuelta al taller</li>
+<li>16:00 - ¡A estirar las piernas!</li>
+<li>18:00 - Cierre y agradecimientos</li>
 </ul>
 
 <p><strong>No olvides traer tu computadora, cargador, y mucha curiosidad :)</strong></p>
 
 <h2>D&oacute;nde</h2>
 
-<p>El taller se llevar&aacute; a cabo en <a href="http://hubstn.com/">HUB STN</a> ubicado en Av. Revoluci&oacute;n entre calles 6ta y 7ma.</p>
+<p>El taller se llevar&aacute; a cabo en <a href="https://goo.gl/maps/qns8W">la biblioteca de UABC Sauzal</a>. Puedes ver un mapa aqu&iacute;:</p>
 
-<p>El edificio es la antigua terminal de autobuses de Mexicoach, en el segundo piso. Puedes ver un mapa aqu&iacute;: <a href="https://goo.gl/maps/QYBtL">Awesome Google Map!</a></p>
-
-<p>Pondremos letreros en todos lados, pero si te pierdes, ll&aacute;manos: +521 (664) 218 3372 (Andrea) &oacute; +521 (664) 310 0360 (Laura).</p>
-
-<h3>¡Por favor deja tu carro en casa!</h3>
-
-<p>No tenemos estacionamiento designado para los asistentes al evento, as&iacute; que ten eso en cuenta al elegir el m&eacute;todo de transporte. Si por algun motivo nesesitas traer carro, hay un estacionamiento barato ($20 MN)  hasta las 20:00. El estacionamiento esta en la calle 7ma entre las Avenidas Revoluci&oacute;n y Constituci&oacute;n. Puedes ver un mapa aqui: <a href="https://goo.gl/maps/OFCN0">Ubicaci&oacute;n del estacionamiento</a></p>
+<p>Si te pierdes, ll&aacute;male a Andy +521 (664) 218 3372.</p>
 
 <h2>Trae contigo</h2>
 
@@ -132,17 +297,17 @@
 <p>8 horas es muy poco tiempo para aprender programaci&oacute;n, por eso te pediremos que hagas algunas cosas antes de. Si tienes tiempo y quieres venir mejor preparada, por favor lee lo siguiente:</p>
 
 <ul>
-<li><a href="http://tutorial.djangogirls.org">El primer capitulo del tutorial que usaremos durante el taller</a></li>
+<li><a href="http://tutorial.djangogirls.org/en/index.html">El primer capitulo del tutorial que usaremos durante el taller</a></li>
 <li><a href="http://wtf.tw/ref/duckett.pdf">Los capitulos 1, 4, 7, 10 y 15 de este libro de HTML y CSS por Jon Duckett</a></li>
 </ul>
 
 <h2>Importante</h2>
 
-<p>S&oacute;lo tenemos 45 lugares en el taller y recibimos m&aacute;s de 150 aplicaciones. Si, por alg&uacute;n motivo, no puedes asistir, te pedimos por favor (¡te lo rogamos!) nos lo hagas saber. As&iacute; le podemos dar a oportunidad a alguien m&aacute;s y el lugar no se ira a la basura. Puedes mandarnos un mensaje de texto o un whatsapp a +521 (664) 218 3372 (Andrea) &oacute; +521 (664) 310 0360 (Laura).</p>
+<p>S&oacute;lo tenemos 45 lugares en el taller y recibimos m&aacute;s de 80 aplicaciones. Si, por alg&uacute;n motivo, no puedes asistir, te pedimos por favor (¡te lo rogamos!) nos lo hagas saber, as&iacute; le podemos dar a oportunidad a alguien m&aacute;s. Puedes mandarle un mensaje de texto o un whatsapp a Andy +521 (664) 218 3372.</p>
 
 <p>¡Nos vemos pronto!</p>
 
-<p>-Andrea</p>
+<p>-Steph y Andy</p>
 
   </div>
   
@@ -156,6 +321,7 @@
     <span class="pagination-item newer">Newer</span>
   
 </div>
+
     </div>
 
   </body>

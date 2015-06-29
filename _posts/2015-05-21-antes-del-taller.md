@@ -37,7 +37,6 @@ Recomendamos llegar a la hora citada especialmente el s&aacute;bado, para poder 
 ## D&oacute;nde
 
 El taller se llevar&aacute; a cabo en [la biblioteca de UABC Sauzal](https://goo.gl/maps/qns8W). Puedes ver un mapa aqu&iacute;:
-![UABC Sauzal](/public/map.png)
 
 Si te pierdes, ll&aacute;male a Andy +521 (664) 218 3372.
 
@@ -53,7 +52,7 @@ Si te pierdes, ll&aacute;male a Andy +521 (664) 218 3372.
 
 8 horas es muy poco tiempo para aprender programaci&oacute;n, por eso te pediremos que hagas algunas cosas antes de. Si tienes tiempo y quieres venir mejor preparada, por favor lee lo siguiente:
 
-- [El primer capitulo del tutorial que usaremos durante el taller](http://tutorial.djangogirls.org)
+- [El primer capitulo del tutorial que usaremos durante el taller](http://tutorial.djangogirls.org/en/index.html)
 - [Los capitulos 1, 4, 7, 10 y 15 de este libro de HTML y CSS por Jon Duckett](http://wtf.tw/ref/duckett.pdf)
 
 ## Importante
