@@ -1,0 +1,26 @@
+<div class="container clear">
+  <div class="logo">
+    <h1>Andy Osuna</h1>
+    <p>{{ site.tagline }}</p>
+  </div>
+  <button class="hambarger">
+    <span class="hambar"></span>
+    <span class="hambar"></span>
+    <span class="hambar"></span>
+  </button>
+  <nav>
+    <ul>
+      <li><a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a></li>
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <li><a class="{% if page.url == node.url %}active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
+
