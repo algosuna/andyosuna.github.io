@@ -7,9 +7,23 @@
 
     {% include navbar.html %}
 
+    <div class="divide"></div>
+
     <div class="content container">
       {{ content }}
     </div>
+
+    <div class="divide"></div>
+
+    {% include footer.html %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}public/js/modernizr.js"></script>
+    <script src="{{ site.baseurl }}public/js/functions.js"></script>
+    <script>
+    counter();
+    mobileMenu();
+    </script>
 
   </body>
 </html>
