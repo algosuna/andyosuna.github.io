@@ -1,0 +1,16 @@
+// classes that belong to jekyll
+
+.post-title,
+.page-title {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.post-date {
+    font-family: $subheadingfont;
+    font-style: italic;
+    color: $linkyellow;
+    display: block;
+    text-align: center;
+}

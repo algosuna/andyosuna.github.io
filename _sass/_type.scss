@@ -1,0 +1,73 @@
+// typography
+
+@import url('http://fonts.googleapis.com/css?family=Ubuntu+Mono:400italic|Federo|Arimo:400,700,400italic');
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: $bodyfont;
+  font-size: 20px;
+  line-height: 26px;
+  color: $maingrey;
+  background-color: $bgcolor;
+  // text-align: center;
+  margin-bottom: 60px;
+}
+
+::selection,
+::-o-selection,
+::-moz-selection,
+::-webkit-selection {
+  background: rgba(255, 121, 88, 1);
+  color: rgba(255, 221, 134, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingfont;
+  font-weight: normal;
+  color: $mainblue;
+
+  > small {
+    font-family: $subheadingfont;
+    color: $linkyellow;
+    font-style: italic;
+  }
+
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 34px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+a,
+a:link,
+a:visited {
+  color: $linkyellow;
+  text-decoration: none;
+  @include coloreasein(.4s);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: $fadedyellow;
+}
+
+button:focus,
+a:focus {
+  border: 1px solid $linkyellow;
+  outline: none;
+}

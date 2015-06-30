@@ -1,0 +1,71 @@
+// Helper Classes
+
+.clear:before,
+.clear:after {
+  content: "";
+  display: block;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.btn-group {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-family: $headingfont;
+  font-size: 30px;
+  padding: 15px;
+  margin: 10px;
+  color: $white;
+  background-color: $lightblue;
+  min-width: 190px;
+  display: block;
+  float: left;
+  @include insetboxshadow(-3px, $darkblue);
+  @include bgcoloreasein(.4s);
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: $darkblue;
+}
+
+.divide {
+  display: block;
+  width: 100%;
+  background-color: rgba(239, 239, 239, 1);
+  height: 3px;
+}
+
+.error-gif {
+  margin-top: 20px;
+}
+
+.message {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: transparentize($maingrey, 0.9);
+}
+
+.text-center {
+  text-align: center;
+}
