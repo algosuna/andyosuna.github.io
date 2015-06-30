@@ -2,25 +2,32 @@
 markdown:         redcarpet
 highlighter:      pygments
 
-# Permalinks
+# permalinks
 permalink:        pretty
 relative_permalinks: true
 
-# Setup
+# setup
 title:            Andy Osuna
-tagline:          'web developer'
+tagline:          web developer
 description:      'My name is Andrea Gonzalez Osuna, Andy Osuna for short. I am a Web Developer in love with Python and am currently in the delightful city of Tijuana.'
 url:              http://andyosuna.com
-baseurl:          /
-
-author:
-  name:           'Andy Osuna'
-  url:            https://twitter.com/andiosuna
+baseurl:          ''
 
 paginate:         5
 
-# Custom vars
-version:          1.0.0
+# assets
+sass:
+  sass_dir:       _sass
+  style:          :compressed
+
+# about
+author:
+  name:           'Andy Osuna'
+  url:            https://twitter.com/andiosuna
+  email:          andyosuna@gmail.com
+
+# custom variables
+version:          1.2.0
 
 github:
   repo:           https://github.com/andyosuna/andyosuna.github.io

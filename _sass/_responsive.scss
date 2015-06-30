@@ -1,0 +1,86 @@
+/*
+
+Responsive Junk
+
+*/
+@media (max-width: 759px) {
+  header,
+  footer {
+    background-color: $bgcolor;
+  }
+  footer {
+    bottom: -60px;
+  }
+  .logo {
+    padding: 20px 0px;
+    width: 100%;
+    position: relative;
+    background-color: $bgcolor;
+    z-index: 20;
+  }
+  .content {
+    position: relative;
+    height: 100%;
+    z-index: 20;
+    background-color: $bgcolor;
+  }
+  nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    width: 150px;
+    height: 100%;
+    padding: 0px 25px;
+    margin: 0;
+    padding-bottom: 60px;
+    background: $maingrey;
+    z-index: 10;
+    ul {
+      margin: 30px 0;
+      li {
+        display: block;
+        padding: 15px 0;
+        border-bottom: 1px solid $halfwhite;
+      }
+      li:first-of-type {
+        border-top: 1px solid $halfwhite;
+      }
+    } 
+  }
+  .hambarger {
+    display: block;
+  }
+  .btn {
+    width: 100%;
+    margin: 5px 0px!important;
+    padding: 15px 0px!important;
+  }
+  .btn-group {
+    margin: 0 20px;
+    width: auto;
+  }
+  /* nav animation */
+  body,
+  nav {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+  }
+  .animating nav,
+  .nav-visible nav {
+    display: block;
+  }
+  .animating {
+    @include transformeaseinout(.25s);
+  }
+  .animating.left {
+    @include translate3d(-200px);
+  }
+  .animating.right {
+    @include translate3d(200px);
+  }
+  .nav-visible {
+    position: relative;
+    right: 200px;
+  }
+}

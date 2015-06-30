@@ -1,4 +1,3 @@
 *.sublime-*
-sass
-*.css.map
-
+.sass-cache
+_site

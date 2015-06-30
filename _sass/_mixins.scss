@@ -1,0 +1,52 @@
+@mixin coloreasein($time) {
+  -webkit-transition: color $time ease-in;
+     -moz-transition: color $time ease-in;
+       -o-transition: color $time ease-in;
+          transition: color $time ease-in;
+}
+@mixin bgcoloreasein($time) {
+  -webkit-transition: background-color $time ease-in;
+     -moz-transition: background-color $time ease-in;
+       -o-transition: background-color $time ease-in;
+          transition: background-color $time ease-in;
+}
+@mixin transformeaseinout($time) {
+  -webkit-transition: -webkit-transform $time ease-in-out;
+     -moz-transition:    -moz-transform $time ease-in-out;
+       -o-transition:      -o-transform $time ease-in-out;
+          transition:         transform $time ease-in-out;
+}
+@mixin transitionsingle($type, $time) {
+  -webkit-transition: $type $time ease-in;
+     -moz-transition: $type $time ease-in;
+       -o-transition: $type $time ease-in;
+          transition: $type $time ease-in;
+}
+@mixin transitiondouble($type, $time, $type2) {
+  -webkit-transition: $type $time ease-in,
+                      $type2 $time ease-in;
+     -moz-transition: $type $time ease-in,
+                      $type2 $time ease-in;
+       -o-transition: $type $time ease-in,
+                      $type2 $time ease-in;
+          transition: $type $time ease-in,
+                      $type2 $time ease-in;
+}
+@mixin translate3d($size) {
+  -webkit-transform: translate3d( $size, 0, 0 );
+     -moz-transform: translate3d( $size, 0, 0 );
+       -o-transform: translate3d( $size, 0, 0 );
+          transform: translate3d( $size, 0, 0 );
+}
+@mixin insetboxshadow($size, $color) {
+  -webkit-box-shadow: inset $size $size 0px 0px $color;
+     -moz-box-shadow: inset $size $size 0px 0px $color;
+       -o-box-shadow: inset $size $size 0px 0px $color;
+          box-shadow: inset $size $size 0px 0px $color;
+}
+@mixin borderradius($size) {
+  -webkit-border-radius: $size;
+     -moz-border-radius: $size;
+       -o-border-radius: $size;
+          border-radius: $size;
+}

@@ -1,0 +1,397 @@
+---
+# the main scss file
+---
+
+/*
+
+Project: Andy Osuna's Portfolio
+URL: http://andyosuna.com
+Designer and Developer: Andy Osuna
+URL: http://andyosuna.com
+Description: Personal web portfolio website for Andrea Gonzalez Osuna (myself).
+Version: 1.2
+Date: June, 2015
+                 _
+  __ _ _ __   __| |_   _  ___  ___ _   _ _ __   __ _   ___ ___  _ __ ___
+ / _` | '_ \ / _` | | | |/ _ \/ __| | | | '_ \ / _` | / __/ _ \| '_ ` _ \
+| (_| | | | | (_| | |_| | (_) \__ \ |_| | | | | (_| || (_| (_) | | | | | |
+ \__,_|_| |_|\__,_|\__, |\___/|___/\__,_|_| |_|\__,_(_)___\___/|_| |_| |_|
+                   |___/
+
+*/
+
+// color vars
+$mainblue: rgba(39, 170, 225, 0.8);
+$lightblue: rgba(39, 170, 255, 0.5);
+$darkblue: rgba(39, 170, 255, 1);
+$maingrey: rgba(137, 137, 137, 1);
+$bgcolor: rgba(246, 246, 246, 1);
+$linkyellow: rgba(255, 193, 34, 1);
+$fadedyellow: rgba(255, 193, 34, 0.5);
+$white: rgba(255, 255, 255, 1);
+$halfwhite: rgba(255, 255, 255, 0.5);
+
+// font vars
+$headingfont: 'Federo', Helvetica, Arial, sans-serif;
+$bodyfont: 'Arimo', Helvetica, Arial, sans-serif;
+$subheadingfont: 'Ubuntu Mono', 'Courier New', Courier, monospace;
+
+// mixins
+@import 'mixins';
+
+/*
+
+Fonts
+
+*/
+@import url('http://fonts.googleapis.com/css?family=Ubuntu+Mono:400italic|Federo|Arimo:400,700,400italic');
+
+/*
+
+General
+
+*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: $bodyfont;
+  font-size: 20px;
+  line-height: 26px;
+  color: $maingrey;
+  background-color: $bgcolor;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+::selection,
+::-o-selection,
+::-moz-selection,
+::-webkit-selection {
+  background: rgba(255, 121, 88, 1);
+  color: rgba(255, 221, 134, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingfont;
+  font-weight: normal;
+  color: $mainblue;
+
+  > small {
+    font-family: $subheadingfont;
+    color: $linkyellow;
+    font-style: italic;
+  }
+
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 34px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+a,
+a:link,
+a:visited {
+  color: $linkyellow;
+  text-decoration: none;
+  @include coloreasein(.4s);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: $fadedyellow;
+}
+
+button:focus,
+a:focus {
+  border: 1px solid $linkyellow;
+  outline: none;
+}
+
+/*
+
+Classes
+
+*/
+.clear:before,
+.clear:after {
+  content: "";
+  display: block;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.btn-group {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-family: $headingfont;
+  font-size: 30px;
+  padding: 15px;
+  margin: 10px;
+  color: $white;
+  background-color: $lightblue;
+  min-width: 190px;
+  display: block;
+  float: left;
+  @include insetboxshadow(-3px, $darkblue);
+  @include bgcoloreasein(.4s);
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: $darkblue;
+}
+
+.divide {
+  display: block;
+  width: 100%;
+  background-color: rgba(239, 239, 239, 1);
+  height: 3px;
+}
+
+/*
+
+Header
+
+*/
+
+/* Navigation */
+nav {
+  font-family: $headingfont;
+  font-size: 26px;
+  float: right;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: 35px 20px 20px;
+    }
+
+  }
+
+}
+
+.hambarger {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  float: right;
+  z-index: 40;
+  cursor: pointer;
+  border: none;
+  margin: 0px;
+  padding: 10px;
+  background-color: rgba(239, 239, 239, 1);
+  @include bgcoloreasein(.4s);
+  @include borderradius(3px);
+}
+
+.hambarger:hover {
+  background-color: $maingrey;
+
+  .hambar {
+    background-color: $fadedyellow;
+  }
+
+}
+
+.hambar {
+  display: block;
+  width: 22px;
+  height: 3px;
+  @include borderradius(1px);
+  background-color: $linkyellow;
+  @include bgcoloreasein(.4s);
+
+  + .hambar {
+    margin-top: 5px;
+  }
+
+}
+
+/* "Logo" */
+.logo {
+  float: left;
+  padding: 20px;
+
+  p {
+    font-family: $subheadingfont;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+    color: $linkyellow;
+
+  }
+
+}
+
+/*
+
+Content
+
+*/
+.content {
+
+  h2 {
+    padding: 30px 0px 0px;
+  }
+
+  p {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
+  p.intro {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  figure {
+    width: 260px;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    font-size: 14px;
+    font-style: italic;
+    color: rgba(137, 137, 137, 0.8);
+    line-height: 16px;
+  }
+
+  .error-gif {
+    margin-top: 20px;
+  }
+
+}
+
+/*
+
+Form Elements
+
+*/
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  max-width: 380px;
+  border: 1px solid opacify($maingrey, 0.8);
+  padding: 15px 10px;
+  margin: 5px 0px 15px;
+  font-size: 16px;
+  color: $maingrey;
+  @include transitiondouble(border, 0.3s, max-width);
+}
+
+input:hover {
+  border: 1px solid $linkyellow;
+}
+
+input:focus {
+  max-width: 400px;
+}
+
+button[type="submit"] {
+  float: none;
+  width: 100%;
+  margin: 0px;
+  border: none;
+}
+
+/*
+
+About
+
+*/
+
+.about {
+  text-align: left;
+
+  p {
+    max-width: 100%;
+  }
+
+  ul {
+    margin: 0px 0px 10px 40px;
+    list-style-type: circle;
+  }
+
+}
+
+/*
+
+Login
+
+*/
+.login-container {
+  max-width: 400px;
+  margin: 0 auto 50px;
+}
+
+/*
+
+Footer
+
+*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+
+  p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    padding: 20px 0;
+  }
+
+}
+
+@import 'responsive';
